@@ -1,0 +1,38 @@
+{
+  "comment": "R15 rig geometry extracted from Roblox Studio (CreateHumanoidModelFromDescription, R15). Attachment CFrames are pure translations: [x, y, z, r00..r22]. Used by compare_video.py to FK the retargeted animation exactly the way the Animator does.",
+  "joints": [
+    {"name": "Root", "part0": "HumanoidRootPart", "part1": "LowerTorso", "a0": [0, -1, 0], "a1": [0, -0.2, 0]},
+    {"name": "Waist", "part0": "LowerTorso", "part1": "UpperTorso", "a0": [0, 0.2, 0], "a1": [0, -0.849, 0]},
+    {"name": "Neck", "part0": "UpperTorso", "part1": "Head", "a0": [0, 0.849, 0], "a1": [0, -0.5758, 0]},
+    {"name": "LeftShoulder", "part0": "UpperTorso", "part1": "LeftUpperArm", "a0": [-0.9716, 0.5975, 0], "a1": [0.5005, 0.4189, 0]},
+    {"name": "LeftElbow", "part0": "LeftUpperArm", "part1": "LeftLowerArm", "a0": [0.0005, -0.3549, 0], "a1": [0.0005, 0.2748, 0]},
+    {"name": "LeftWrist", "part0": "LeftLowerArm", "part1": "LeftHand", "a0": [0.0005, -0.5322, 0], "a1": [0.0005, 0.1316, 0]},
+    {"name": "RightShoulder", "part0": "UpperTorso", "part1": "RightUpperArm", "a0": [0.9716, 0.5975, 0], "a1": [-0.5005, 0.4189, 0]},
+    {"name": "RightElbow", "part0": "RightUpperArm", "part1": "RightLowerArm", "a0": [0, -0.355, 0], "a1": [0, 0.2747, 0]},
+    {"name": "RightWrist", "part0": "RightLowerArm", "part1": "RightHand", "a0": [0, -0.5322, 0], "a1": [0, 0.1316, 0]},
+    {"name": "LeftHip", "part0": "LowerTorso", "part1": "LeftUpperLeg", "a0": [-0.5, -0.2, 0], "a1": [0, 0.4714, 0]},
+    {"name": "LeftKnee", "part0": "LeftUpperLeg", "part1": "LeftLowerLeg", "a0": [0, -0.4493, 0], "a1": [0, 0.4132, 0]},
+    {"name": "LeftAnkle", "part0": "LeftLowerLeg", "part1": "LeftFoot", "a0": [0, -0.5965, 0], "a1": [0, 0.106, 0]},
+    {"name": "RightHip", "part0": "LowerTorso", "part1": "RightUpperLeg", "a0": [0.5, -0.2, 0], "a1": [0, 0.4714, 0]},
+    {"name": "RightKnee", "part0": "RightUpperLeg", "part1": "RightLowerLeg", "a0": [0, -0.4492, 0], "a1": [0, 0.4134, 0]},
+    {"name": "RightAnkle", "part0": "RightLowerLeg", "part1": "RightFoot", "a0": [0, -0.5965, 0.0001], "a1": [0, 0.106, 0.0001]}
+  ],
+  "parts": {
+    "HumanoidRootPart": [2, 2, 1],
+    "LowerTorso": [1.9914, 0.4007, 1.004],
+    "UpperTorso": [1.9432, 1.698, 1.004],
+    "Head": [1.159, 1.182, 1.1606],
+    "LeftUpperArm": [1.0011, 1.2416, 1.0019],
+    "LeftLowerArm": [1.0011, 1.1175, 1.0019],
+    "LeftHand": [0.9843, 0.3158, 1.0283],
+    "RightUpperArm": [1.0011, 1.2416, 1.0019],
+    "RightLowerArm": [1.0011, 1.1175, 1.0019],
+    "RightHand": [0.9843, 0.3158, 1.0283],
+    "LeftUpperLeg": [0.9928, 1.3629, 0.9727],
+    "LeftLowerLeg": [0.9928, 1.3007, 0.9728],
+    "LeftFoot": [1.0089, 0.312, 1.0011],
+    "RightUpperLeg": [0.9928, 1.3629, 0.9727],
+    "RightLowerLeg": [0.9928, 1.3007, 0.9728],
+    "RightFoot": [1.0089, 0.312, 1.0011]
+  }
+}

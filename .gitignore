@@ -1,0 +1,10 @@
+# Roblox mesh assets are downloaded per-machine, never committed (Roblox ToS)
+retarget/kimodo_rig/*.obj
+
+__pycache__/
+*.pyc
+.venv/
+*.mp4
+*.rbxmx
+*.rbxmx.meta.json
+r15_fk.json

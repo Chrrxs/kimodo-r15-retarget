@@ -1,0 +1,13 @@
+kimodo-r15-retarget
+
+The test fixture retarget/tests/data/somaskel77_standard_tpose.bvh is
+redistributed from the NVIDIA Kimodo repository
+(https://github.com/nv-tlabs/kimodo, path
+kimodo/assets/skeletons/somaskel77/somaskel77_standard_tpose.bvh), which is
+licensed under the Apache License, Version 2.0:
+https://www.apache.org/licenses/LICENSE-2.0
+Copyright (c) NVIDIA CORPORATION & AFFILIATES.
+
+Roblox mesh assets referenced by retarget/fetch_roblox_meshes.py are the
+property of Roblox Corporation. They are NOT included in this repository;
+the script downloads them from Roblox's public asset CDN for local use only.
